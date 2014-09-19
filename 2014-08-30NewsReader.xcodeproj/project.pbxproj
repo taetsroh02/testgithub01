@@ -22,6 +22,7 @@
 		7D9EEA3C19B193A100DAAC90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D9EEA1B19B193A100DAAC90 /* UIKit.framework */; };
 		7D9EEA4419B193A100DAAC90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D9EEA4219B193A100DAAC90 /* InfoPlist.strings */; };
 		7D9EEA4619B193A100DAAC90 /* _014_08_30NewsReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9EEA4519B193A100DAAC90 /* _014_08_30NewsReaderTests.m */; };
+		7D9EEA9519B197C100DAAC90 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9EEA9419B197C100DAAC90 /* Item.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		7D9EEA4119B193A100DAAC90 /* 2014-08-30NewsReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2014-08-30NewsReaderTests-Info.plist"; sourceTree = "<group>"; };
 		7D9EEA4319B193A100DAAC90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7D9EEA4519B193A100DAAC90 /* _014_08_30NewsReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _014_08_30NewsReaderTests.m; sourceTree = "<group>"; };
+		7D9EEA9319B197C100DAAC90 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		7D9EEA9419B197C100DAAC90 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				7D9EEA2619B193A100DAAC90 /* AppDelegate.h */,
 				7D9EEA2719B193A100DAAC90 /* AppDelegate.m */,
 				7D9EEA2919B193A100DAAC90 /* Main.storyboard */,
+				7D9EEA9319B197C100DAAC90 /* Item.h */,
+				7D9EEA9419B197C100DAAC90 /* Item.m */,
 				7D9EEA2C19B193A100DAAC90 /* MasterViewController.h */,
 				7D9EEA2D19B193A100DAAC90 /* MasterViewController.m */,
 				7D9EEA2F19B193A100DAAC90 /* DetailViewController.h */,
@@ -254,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D9EEA9519B197C100DAAC90 /* Item.m in Sources */,
 				7D9EEA2819B193A100DAAC90 /* AppDelegate.m in Sources */,
 				7D9EEA2E19B193A100DAAC90 /* MasterViewController.m in Sources */,
 				7D9EEA2419B193A100DAAC90 /* main.m in Sources */,
